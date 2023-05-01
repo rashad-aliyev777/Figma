@@ -1,0 +1,108 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --qara-reng: #222;
+    --ag-reng: #fff;
+    --spandaki-reng:#FF8A56;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 112.5px 16.7px;
+    align-items: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header a {
+    color: #000000;
+    padding: 4px;
+}
+.fa-bars {
+    display: none;
+}
+ /* Media Query */
+ @media(max-width:1365px) {
+    .intro h1 {
+        font-size: 30px;
+
+    }
+ }
+ @media(max-width:1180px){
+    .intro {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+ }
+ @media(max-width:768px){
+    .header{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+    .nav-sag {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .intro {
+        flex-direction: row;
+    }
+ }
+ @media(max-width:576px){
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+        .intro h1, p {
+            font-size: 20px;
+        }
+ }
+ /* intro hissesi */
+ .intro {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+ }
+ .intro-sol {
+    padding-top: 117px;
+ }
+ .intro-sag {
+    padding-top: 70px;
+ }
+.intro-sol h1 {
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 2px;
+    font-weight: 700;
+ }
+.intro-sol h1 span {
+    color: var(--spandaki-reng);
+ }
+ .intro-sol p {
+    margin-top: 30px;
+    margin-bottom: 34px;
+ }
+.intro-sol button {
+    background-color: var(--qara-reng);
+    color: var(--ag-reng);
+    border: 1px solid ;
+    width: 151px;
+    height: 58px;
+}
+.intro-sag img {
+    width: 100%;
+}
+.intro-sol a {
+padding-left: 20px;
+}
