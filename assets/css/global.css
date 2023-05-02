@@ -32,6 +32,8 @@ body {
     .header{
         padding-left: 40px;
         padding-right: 40px;
+
+        
     }
     .nav-sag {
         display: none;
@@ -93,9 +95,6 @@ padding-left: 20px;
 }
 
 /* media intro  */
-@media(min-width:1400px) {
-
-}
 @media(max-width:1330px) {
     .intro {
         padding-left: 60px;
@@ -119,5 +118,6 @@ padding-left: 20px;
         font-size: 42px;
     }
 }
-@media
+
+
 /* media intro qurtardi */
