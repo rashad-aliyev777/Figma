@@ -1,5 +1,4 @@
 @import url('./reset.css');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --qara-reng: #222;
@@ -15,36 +14,24 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.header a {
+.nav-sag a {
     color: #000000;
-    padding: 4px;
+    padding-right: 20px;
 }
 .fa-bars {
     display: none;
 }
  /* Media Query */
- @media(max-width:1365px) {
-    .intro h1 {
-        font-size: 30px;
-
-    }
+ @media(max-width:991px){
+.header {
+    padding-left: 40px;
+    padding-right: 40px;
+}
  }
- @media(max-width:1180px){
-    .intro {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .intro h1 {
-        font-size: 20px;
-    }
- }
- @media(max-width:768px){
+@media(max-width:768px){
     .header{
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .intro h1 {
-        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .nav-sag {
         display: none;
@@ -53,9 +40,7 @@ body {
         display: block;
         font-size: 20px;
         cursor: pointer;
-    }
-    .intro {
-        flex-direction: row;
+        padding: 4px;
     }
  }
  @media(max-width:576px){
@@ -63,10 +48,7 @@ body {
         padding-left: 20px;
         padding-right: 20px;
         }
-        .intro h1, p {
-            font-size: 20px;
-        }
- }
+    }
  /* intro hissesi */
  .intro {
     display: flex;
@@ -80,18 +62,21 @@ body {
  .intro-sag {
     padding-top: 70px;
  }
-.intro-sol h1 {
-    font-size: 72px;
+.intro h1 {
+    font-size: 4.5rem;
     line-height: 82px;
     letter-spacing: 2px;
     font-weight: 700;
  }
-.intro-sol h1 span {
+.intro h1 span {
     color: var(--spandaki-reng);
  }
- .intro-sol p {
+ .intro p {
     margin-top: 30px;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
+    color: #666666;
+    font-size: 18px;
+    letter-spacing: 1px;
  }
 .intro-sol button {
     background-color: var(--qara-reng);
@@ -106,3 +91,33 @@ body {
 .intro-sol a {
 padding-left: 20px;
 }
+
+/* media intro  */
+@media(min-width:1400px) {
+
+}
+@media(max-width:1330px) {
+    .intro {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media(max-width:1225px) {
+    .intro {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media(max-width:1165px){
+    .intro {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-wdith:1145px) {
+    .intro .intro-sol h1 {
+        font-size: 42px;
+    }
+}
+@media
+/* media intro qurtardi */
