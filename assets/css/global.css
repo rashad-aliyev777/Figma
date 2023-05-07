@@ -115,6 +115,7 @@ padding-left: 20px;
     .intro h1 {
         font-size: 42px;
         line-height: 42px;
+        text-align: center;
     }
 }
 @media(max-width:992px) {
@@ -252,13 +253,13 @@ padding-left: 20px;
     text-transform: uppercase;
     color: #B16CEA;
 }
-.sekil-hissesi h1 {
-    font-size: 54px;
+.project h1 {
     font-weight: 700;
+    font-size: 54px;
     line-height: 59px;
     padding-left: 20px;
 }
-.sekil-hissesi {
+.project {
     display: flex;
     justify-content: space-between;
     padding-left: 113px;
@@ -301,4 +302,115 @@ padding-left: 20px;
         font-size: 17px;
     }
 }
+
 /* projects media end */
+
+/* sekil hissesi start */
+.sekil-hissesi {
+    display: flex;
+    padding-left: 113px;
+    position: absolute;
+}
+.sekil-1 h5 {
+    color: #3C46FF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.sekil-1 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+}
+.sekil-1 span {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+.sekil-1 img {
+    padding-left: 10.36px;
+}
+.sekil-2 h5 {
+    color: #3C46FF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.sekil-2 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+}
+.sekil-2 span {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+.sekil-2 img {
+    padding-left: 10.36px;
+}
+.sekil-3 h5 {
+    color: #3C46FF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.sekil-3 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+}
+.sekil-3 span {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+.sekil-3 img {
+    padding-left: 10.36px;
+}
+/* sekil hissesi end */
+
+/* media sekil start*/
+
+/* media sekil end */
+
+/* qara hisse start */
+.qara-hisse {
+    background-color: #e2dada;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin-top: 305px;
+}
+.str-1 {
+    padding-right: 5px;
+}
+.str-2 {
+    padding-right: 112px;
+    padding-top: 170px;
+}
+/* qara hisse end */
