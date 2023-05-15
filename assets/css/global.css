@@ -1002,7 +1002,7 @@ padding-left: 20px;
         padding-right: 5px;
     }
 }
-@media(max-width:390px) {
+@media(max-width:393px) {
     .end-portfolio {
         flex-direction: column;
         
